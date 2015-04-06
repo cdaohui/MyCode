@@ -1,0 +1,429 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3ABB51531ACFB71F00497281 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB51521ACFB71F00497281 /* main.m */; };
+		3ABB51561ACFB71F00497281 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB51551ACFB71F00497281 /* AppDelegate.m */; };
+		3ABB51591ACFB71F00497281 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB51581ACFB71F00497281 /* ViewController.m */; };
+		3ABB515C1ACFB71F00497281 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB515A1ACFB71F00497281 /* Main.storyboard */; };
+		3ABB515E1ACFB71F00497281 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB515D1ACFB71F00497281 /* Images.xcassets */; };
+		3ABB51611ACFB71F00497281 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3ABB515F1ACFB71F00497281 /* LaunchScreen.xib */; };
+		3ABB516D1ACFB71F00497281 /* webDav______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ABB516C1ACFB71F00497281 /* webDav______Tests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3ABB51671ACFB71F00497281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3ABB51451ACFB71F00497281 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3ABB514C1ACFB71F00497281;
+			remoteInfo = "webDav服务器的练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3ABB514D1ACFB71F00497281 /* webDav服务器的练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "webDav服务器的练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABB51511ACFB71F00497281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABB51521ACFB71F00497281 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3ABB51541ACFB71F00497281 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3ABB51551ACFB71F00497281 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3ABB51571ACFB71F00497281 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3ABB51581ACFB71F00497281 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3ABB515B1ACFB71F00497281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3ABB515D1ACFB71F00497281 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3ABB51601ACFB71F00497281 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3ABB51661ACFB71F00497281 /* webDav服务器的练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "webDav服务器的练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3ABB516B1ACFB71F00497281 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3ABB516C1ACFB71F00497281 /* webDav______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "webDav______Tests.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3ABB514A1ACFB71F00497281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABB51631ACFB71F00497281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ABB51441ACFB71F00497281 = {
+			isa = PBXGroup;
+			children = (
+				3ABB514F1ACFB71F00497281 /* webDav服务器的练习 */,
+				3ABB51691ACFB71F00497281 /* webDav服务器的练习Tests */,
+				3ABB514E1ACFB71F00497281 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3ABB514E1ACFB71F00497281 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB514D1ACFB71F00497281 /* webDav服务器的练习.app */,
+				3ABB51661ACFB71F00497281 /* webDav服务器的练习Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3ABB514F1ACFB71F00497281 /* webDav服务器的练习 */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB51541ACFB71F00497281 /* AppDelegate.h */,
+				3ABB51551ACFB71F00497281 /* AppDelegate.m */,
+				3ABB51571ACFB71F00497281 /* ViewController.h */,
+				3ABB51581ACFB71F00497281 /* ViewController.m */,
+				3ABB515A1ACFB71F00497281 /* Main.storyboard */,
+				3ABB515D1ACFB71F00497281 /* Images.xcassets */,
+				3ABB515F1ACFB71F00497281 /* LaunchScreen.xib */,
+				3ABB51501ACFB71F00497281 /* Supporting Files */,
+			);
+			path = "webDav服务器的练习";
+			sourceTree = "<group>";
+		};
+		3ABB51501ACFB71F00497281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB51511ACFB71F00497281 /* Info.plist */,
+				3ABB51521ACFB71F00497281 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3ABB51691ACFB71F00497281 /* webDav服务器的练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB516C1ACFB71F00497281 /* webDav______Tests.m */,
+				3ABB516A1ACFB71F00497281 /* Supporting Files */,
+			);
+			path = "webDav服务器的练习Tests";
+			sourceTree = "<group>";
+		};
+		3ABB516A1ACFB71F00497281 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3ABB516B1ACFB71F00497281 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3ABB514C1ACFB71F00497281 /* webDav服务器的练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABB51701ACFB71F00497281 /* Build configuration list for PBXNativeTarget "webDav服务器的练习" */;
+			buildPhases = (
+				3ABB51491ACFB71F00497281 /* Sources */,
+				3ABB514A1ACFB71F00497281 /* Frameworks */,
+				3ABB514B1ACFB71F00497281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "webDav服务器的练习";
+			productName = "webDav服务器的练习";
+			productReference = 3ABB514D1ACFB71F00497281 /* webDav服务器的练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3ABB51651ACFB71F00497281 /* webDav服务器的练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3ABB51731ACFB71F00497281 /* Build configuration list for PBXNativeTarget "webDav服务器的练习Tests" */;
+			buildPhases = (
+				3ABB51621ACFB71F00497281 /* Sources */,
+				3ABB51631ACFB71F00497281 /* Frameworks */,
+				3ABB51641ACFB71F00497281 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3ABB51681ACFB71F00497281 /* PBXTargetDependency */,
+			);
+			name = "webDav服务器的练习Tests";
+			productName = "webDav服务器的练习Tests";
+			productReference = 3ABB51661ACFB71F00497281 /* webDav服务器的练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3ABB51451ACFB71F00497281 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = gululu;
+				TargetAttributes = {
+					3ABB514C1ACFB71F00497281 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					3ABB51651ACFB71F00497281 = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 3ABB514C1ACFB71F00497281;
+					};
+				};
+			};
+			buildConfigurationList = 3ABB51481ACFB71F00497281 /* Build configuration list for PBXProject "webDav服务器的练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3ABB51441ACFB71F00497281;
+			productRefGroup = 3ABB514E1ACFB71F00497281 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3ABB514C1ACFB71F00497281 /* webDav服务器的练习 */,
+				3ABB51651ACFB71F00497281 /* webDav服务器的练习Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3ABB514B1ACFB71F00497281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABB515C1ACFB71F00497281 /* Main.storyboard in Resources */,
+				3ABB51611ACFB71F00497281 /* LaunchScreen.xib in Resources */,
+				3ABB515E1ACFB71F00497281 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABB51641ACFB71F00497281 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3ABB51491ACFB71F00497281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABB51591ACFB71F00497281 /* ViewController.m in Sources */,
+				3ABB51561ACFB71F00497281 /* AppDelegate.m in Sources */,
+				3ABB51531ACFB71F00497281 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3ABB51621ACFB71F00497281 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3ABB516D1ACFB71F00497281 /* webDav______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3ABB51681ACFB71F00497281 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3ABB514C1ACFB71F00497281 /* webDav服务器的练习 */;
+			targetProxy = 3ABB51671ACFB71F00497281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3ABB515A1ACFB71F00497281 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ABB515B1ACFB71F00497281 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3ABB515F1ACFB71F00497281 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3ABB51601ACFB71F00497281 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3ABB516E1ACFB71F00497281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3ABB516F1ACFB71F00497281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3ABB51711ACFB71F00497281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "webDav服务器的练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3ABB51721ACFB71F00497281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "webDav服务器的练习/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3ABB51741ACFB71F00497281 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "webDav服务器的练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webDav服务器的练习.app/webDav服务器的练习";
+			};
+			name = Debug;
+		};
+		3ABB51751ACFB71F00497281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "webDav服务器的练习Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/webDav服务器的练习.app/webDav服务器的练习";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3ABB51481ACFB71F00497281 /* Build configuration list for PBXProject "webDav服务器的练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABB516E1ACFB71F00497281 /* Debug */,
+				3ABB516F1ACFB71F00497281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3ABB51701ACFB71F00497281 /* Build configuration list for PBXNativeTarget "webDav服务器的练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABB51711ACFB71F00497281 /* Debug */,
+				3ABB51721ACFB71F00497281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3ABB51731ACFB71F00497281 /* Build configuration list for PBXNativeTarget "webDav服务器的练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3ABB51741ACFB71F00497281 /* Debug */,
+				3ABB51751ACFB71F00497281 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3ABB51451ACFB71F00497281 /* Project object */;
+}
